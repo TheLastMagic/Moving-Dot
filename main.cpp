@@ -31,7 +31,7 @@ int main(void)
             ClearBackground(RAYWHITE);
 
 
-            DrawCircle(dotX, dotY, 50, BROWN);
+            DrawCircle(dotX, dotY, 50, DARKBROWN);
 
             
 
