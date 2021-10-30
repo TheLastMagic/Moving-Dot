@@ -4,6 +4,7 @@
 int main(void)
 {
     
+    // Window width and height
     const int screenWidth = 800;
     const int screenHeight = 450;
 
@@ -11,23 +12,27 @@ int main(void)
 
     SetTargetFPS(60);
 
+    // Dot X, Y
     int dotX = 300;
     int dotY = 185;               
 
+    // Window Loop
     while (!WindowShouldClose())    
     {
 
-        if (IsKeyDown(KEY_D)) dotX += 2.0f;
-        if (IsKeyDown(KEY_A)) dotX -= 2.0f;
-        if (IsKeyDown(KEY_W)) dotY -= 2.0f;
-        if (IsKeyDown(KEY_S)) dotY += 2.0f;
+        // Dot Movement
+        if (IsKeyDown(KEY_D)) dotX += 2;
+        if (IsKeyDown(KEY_A)) dotX -= 2;
+        if (IsKeyDown(KEY_W)) dotY -= 2;
+        if (IsKeyDown(KEY_S)) dotY += 2;
         
         BeginDrawing();
 
             ClearBackground(RAYWHITE);
 
 
-            DrawCircle(dotX, dotY, 50, BLUE);
+            DrawCircle(dotX, dotY, 50, BROWN);
+
             
 
         EndDrawing();
