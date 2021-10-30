@@ -18,3 +18,5 @@ Library files are stored in library folder
 
 Build folder includes pre-coded Makefile
 
+You can move the dot by pressing W, A, S, D.
+
