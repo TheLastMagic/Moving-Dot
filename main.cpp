@@ -83,7 +83,7 @@ int main(void)
             DrawCircle(dotX, dotY, dotSize, dotColor);
 
             DrawText("Press 1,2,3,4,5,6,7,8,9 to change the color of the dot", 30, 20, 20, BLACK);
-            DrawText("Press E or Q to change the size of the dot", 30, 30, 20, BLACK);
+            DrawText("Press E or Q to change the size of the dot", 30, 45, 20, BLACK);
 
         // End's drawing on screen
         EndDrawing();
