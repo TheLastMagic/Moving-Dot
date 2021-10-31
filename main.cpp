@@ -1,6 +1,7 @@
 #include "include/raylib.h"
 #include <stdlib.h>
 
+// Main function
 int main(void)
 {
     
@@ -8,6 +9,7 @@ int main(void)
     const int screenWidth = 800;
     const int screenHeight = 450;
 
+    // Initialize the window
     InitWindow(screenWidth, screenHeight, "Raylib Game");
 
     SetTargetFPS(60);
@@ -26,6 +28,7 @@ int main(void)
         if (IsKeyDown(KEY_W)) dotY -= 2;
         if (IsKeyDown(KEY_S)) dotY += 2;
         
+        // Start's drawing on screen
         BeginDrawing();
 
             ClearBackground(RAYWHITE);
@@ -35,12 +38,14 @@ int main(void)
 
             
 
+        // End's drawing on screen
         EndDrawing();
         
     }
 
-    
+    // Close's window
     CloseWindow();        
 
+    // returns value 0
     return 0;
 }
