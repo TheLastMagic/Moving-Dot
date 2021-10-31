@@ -23,13 +23,7 @@ int main(void)
     int dotY = 220;
 
     // Dot Color
-    Color dotColor = DARKBROWN;
-
-    // Dot Size
-    int dotSize = 50;
-
-    // Scroll speed    
-    int scrollSpeed = 2;                   
+    Color dotColor = DARKBROWN;                  
 
     // Window Loop
     while (!WindowShouldClose())    
@@ -67,11 +61,6 @@ int main(void)
         if (dotColorNum == 8) dotColor = PURPLE;
         if (dotColorNum == 9) dotColor = BROWN;
         if (specColorNum == 10) dotColor = WHITE;
-
-        // Changing dot size by scrolling
-
-        
-        
 
         // Start's drawing on screen
         BeginDrawing();
