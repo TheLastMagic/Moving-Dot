@@ -14,7 +14,7 @@ int main(void)
     const int screenHeight = 450;
 
     // Initialize the window
-    InitWindow(screenWidth, screenHeight, "Raylib Game");
+    InitWindow(screenWidth, screenHeight, "Moving Dot");
 
     SetTargetFPS(60);
 
@@ -27,9 +27,7 @@ int main(void)
 
     // Dot Size
     int dotSize = 50;
-
-    // Scroll speed    
-    int scrollSpeed = 2;                   
+    
 
     // Window Loop
     while (!WindowShouldClose())    
@@ -68,9 +66,9 @@ int main(void)
         if (dotColorNum == 9) dotColor = BROWN;
         if (specColorNum == 10) dotColor = WHITE;
 
-        // Changing dot size by scrolling
-
-        
+        // Changing dot size by pressing E and Q
+        if (IsKeyDown(KEY_E)) ++dotSize;
+        if (IsKeyDown(KEY_Q)) --dotSize;
         
 
         // Start's drawing on screen
