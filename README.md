@@ -20,6 +20,4 @@ Build folder includes pre-coded Makefile
 
 You can move the dot by pressing W, A, S, D.
 
-This game gonna be later turned into snake game.
-
 There is secret combination of numbers that select special colors.
