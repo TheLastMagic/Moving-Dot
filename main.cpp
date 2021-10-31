@@ -1,5 +1,11 @@
+#include <iostream>
 #include "include/raylib.h"
 #include <stdlib.h>
+#include "Headers/ErrorStruct.h"
+#include "Headers/WriteError.h"
+
+
+using namespace std;
 
 #define MAX_COLORS_COUNT    20 
 #define BLACK CLITERAL(Color){ 0, 0, 0, 255 }
@@ -27,7 +33,6 @@ int main(void)
 
     // Dot Size
     int dotSize = 50;
-    
 
     // Window Loop
     while (!WindowShouldClose())    
