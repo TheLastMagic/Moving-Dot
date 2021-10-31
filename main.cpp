@@ -23,7 +23,13 @@ int main(void)
     int dotY = 220;
 
     // Dot Color
-    Color dotColor = DARKBROWN;                   
+    Color dotColor = DARKBROWN;
+
+    // Dot Size
+    int dotSize = 50;
+
+    // Scroll speed    
+    int scrollSpeed = 2;                   
 
     // Window Loop
     while (!WindowShouldClose())    
@@ -61,6 +67,9 @@ int main(void)
         if (dotColorNum == 8) dotColor = PURPLE;
         if (dotColorNum == 9) dotColor = BROWN;
         if (specColorNum == 10) dotColor = WHITE;
+
+        // Changing dot size by scrolling
+
         
         
 
@@ -70,7 +79,7 @@ int main(void)
             ClearBackground(WHITE);
 
 
-            DrawCircle(dotX, dotY, 50, dotColor);
+            DrawCircle(dotX, dotY, dotSize, dotColor);
 
             DrawText("Press 1,2,3,4,5,6,7,8,9 to change the color of the ball", 30, 20, 20, BLACK);
 
