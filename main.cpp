@@ -13,8 +13,8 @@ int main(void)
     SetTargetFPS(60);
 
     // Dot X, Y
-    int dotX = 300;
-    int dotY = 185;               
+    int dotX = 400;
+    int dotY = 220;               
 
     // Window Loop
     while (!WindowShouldClose())    
