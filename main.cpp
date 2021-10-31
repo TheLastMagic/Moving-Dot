@@ -4,7 +4,6 @@
 #include "Headers/ErrorStruct.h"
 #include "Headers/WriteError.h"
 
-
 using namespace std;
 
 #define MAX_COLORS_COUNT    20 
