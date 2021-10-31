@@ -70,7 +70,6 @@ int main(void)
         if (IsKeyDown(KEY_E)) ++dotSize;
         if (IsKeyDown(KEY_Q)) --dotSize;
         
-
         // Start's drawing on screen
         BeginDrawing();
 
