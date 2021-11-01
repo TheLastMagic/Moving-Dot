@@ -11,8 +11,8 @@ using namespace std;
 #define WHITE CLITERAL(Color){ 255, 255, 255, 255 }
 
 // Main function
-int main(void)
-{
+int main(void) {
+
     
     // Window width and height
     const int screenWidth = 800;
