@@ -13,7 +13,6 @@ using namespace std;
 // Main function
 int main(void) {
 
-    
     // Window width and height
     const int screenWidth = 800;
     const int screenHeight = 450;
