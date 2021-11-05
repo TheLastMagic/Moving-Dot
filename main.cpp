@@ -47,6 +47,7 @@ int main(void) {
         int dotColorNum = 0;
         // Special color num
         int specColorNum = 0;
+        
 
         if (IsKeyDown(KEY_ONE)) dotColorNum = 1;
         if (IsKeyDown(KEY_TWO)) dotColorNum = 2;
