@@ -1,0 +1,48 @@
+Update 1.00
+    -Created the Moving Dot repository
+
+Update 1.01 (Minor Update #1)
+    - Added main.cpp
+    - Added lib folder
+    - Added include folder
+
+Update 1.02 (Minor Update #2)
+    - Added .vscode folder
+
+Update 1.03 (Minor Update #3)
+    - Added Headers folder
+
+Update 1.04 (Major Update #1)
+    - Added WriteError.h
+    - Added WriteError.h
+    - Added .gitignore
+
+Update 1.05 (Major Update #2)
+    - Added Website folder
+    - Added index.html, styles.css, styles.scss, scripts.js to the Website folder
+    - Added Debug folder
+    - Moved build folder to Debug folder
+    - Added Commands folder to Debug folder
+
+Update 1.06 (Minor Update #4)
+    - Added README.md
+
+Update 1.07 (Major Update #3)
+    - Added Client folder
+    - Added Connenct.md to Client folder
+    - Added SQL folder to Website folder
+    - Added Server folder to SQL folder
+    - Added data.sql to SQL folder
+
+Update 1.08 (Minor Update #5)
+    - Added Download folder to Website folder
+    - Added Images folder to Website folder
+
+Update 1.09 (Major Update #4)
+    - Started Website
+    - Started itch.io page
+
+Update 1.10 (Minor Update #6)
+    - Added Log folder
+    - Added Update.log to Log folder
+    - Added Update.repository.log to Log folder
