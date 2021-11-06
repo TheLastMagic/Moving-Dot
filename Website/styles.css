@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
-* {
-    font-family: 'Poppins', sans-serif;
-    
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+.all .download {
+  font-family: 'Poppins', sans-serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
-.download {
-        
-    font-family: 'Poppins', sans-serif;
-    font-weight: 'Regular 400';
-
-}
+/*# sourceMappingURL=styles.css.map */
