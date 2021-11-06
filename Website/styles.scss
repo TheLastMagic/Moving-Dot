@@ -4,9 +4,51 @@
 .all {
 
     .download {
+        
         font-family: 'Poppins', sans-serif;
-        align-items: center;
-        justify-content: center;
+
+        .download-h1 {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .download-link {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+    }
+
+    .image {
+
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+
+        .image-h1 {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .image-photo {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            
+            width: 900px;
+            border: 10px solid #000000;
+            padding: 75px;
+            margin: 15px;
+
+            // box-sizing: border-box;
+            border-radius: 10px;
+
+            outline-style: groove;
+            outline-color: #000000;
+        }
+
     }
 
 }
