@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
 .all {
 
     .download {
@@ -47,6 +46,22 @@
 
             outline-style: groove;
             outline-color: #000000;
+        }
+
+    }
+
+    .redictering-buttons {
+        font-family: 'Dongle', sans-serif;
+
+        .button-h1 {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            text-shadow: 2px 2px;
+        }
+
+        .button {
+            
         }
 
     }

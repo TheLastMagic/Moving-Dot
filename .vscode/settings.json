@@ -1,5 +1,49 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "askForPassword": true,
+            "driver": "MySQL",
+            "database": "magic",
+            "name": "MYSQL80",
+            "username": "root",
+            "connectionTimeout": 60
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Server",
+            "username": "root",
+            "password": "Adamk2010b1",
+            "connectionTimeout": 60,
+            "database": "magic"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "SQL Server",
+            "database": "Database",
+            "username": "root",
+            "password": "Adamk2010b1",
+            "connectionTimeout": 60
+        }
+    ]
 }

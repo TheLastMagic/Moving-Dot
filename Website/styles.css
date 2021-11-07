@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap");
 .all .download {
   font-family: 'Poppins', sans-serif;
 }
@@ -61,5 +62,22 @@
   border-radius: 10px;
   outline-style: groove;
   outline-color: #000000;
+}
+
+.all .redictering-buttons {
+  font-family: 'Dongle', sans-serif;
+}
+
+.all .redictering-buttons .button-h1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-shadow: 2px 2px;
 }
 /*# sourceMappingURL=styles.css.map */
