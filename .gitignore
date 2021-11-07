@@ -4,3 +4,6 @@ dot.exe
 TC.png
 Private
 sqltools_20211106200246_3684.log
+package.json
+package-lock.json
+node_modules
