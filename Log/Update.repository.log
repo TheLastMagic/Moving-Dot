@@ -46,3 +46,10 @@ Update 1.10 (Minor Update #6)
     - Added Log folder
     - Added Update.log to Log folder
     - Added Update.repository.log to Log folder
+
+Update 1.11 (Major Update #5)
+    - Added SQL folder to Website folder
+    - Added Server folder to SQL folder
+    - Added Extensions .js folder to SQL folder
+    - Added Extensions .sql to SQL folder
+    - Added Client folder to Website folder
