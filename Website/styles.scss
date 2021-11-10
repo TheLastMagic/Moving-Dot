@@ -6,7 +6,10 @@
         
         font-family: 'Poppins', sans-serif;
 
+
         .download-h1 {
+            position: sticky;
+
             align-items: center;
             justify-content: center;
             display: flex;
@@ -50,20 +53,151 @@
 
     }
 
-    .redictering-buttons {
+    .Login {
+
+        padding: auto;
+        margin: auto;
+        flex-wrap: wrap;
+
+        
+
         font-family: 'Dongle', sans-serif;
 
-        .button-h1 {
-            align-items: center;
-            justify-content: center;
-            display: flex;
-            text-shadow: 2px 2px;
+        .sing-up {
+
+            display: block;
+            
+            .SingUp-Submit {
+                background-color: #000000;
+                font-size: 20px;
+                color: #ffff;
+                font-family: 'Dongle', sans-serif;
+                cursor: pointer;
+
+            }
+
+            .SingUp-Submit:hover {
+                transition-duration: 0.4s;
+                box-shadow: rgb(0, 0, 0);
+                transform: scale(1.04, 1);
+                opacity: 1;
+            }
+
+            .SingUp-Submit::after {
+                transform: scale(-1.04, -1);
+            }
+
+            
+            .SingUp-b1 {
+                font-size: 50px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+
+            font-family: 'Dongle', sans-serif;
+
+            .break-1 {
+
+                display: block;
+                
+                .SingUp-Submit {
+                    background-color: #000000;
+                    font-size: 20px;
+                    color: #ffff;
+                    font-family: 'Dongle', sans-serif;
+                    cursor: pointer;
+
+                }
+
+                .SingUp-Submit:hover {
+                    transition-duration: 0.4s;
+                    box-shadow: rgb(0, 0, 0);
+                    transform: scale(1.04, 1);
+                    opacity: 1;
+                }
+
+                .SingUp-Submit::after {
+                    transform: scale(-1.04, -1);
+                }
+
+                font-size: 20px;
+            }
+
+            .break-2 {
+
+                display: block;
+
+                .SingUp-Submit {
+                    background-color: #000000;
+                    font-size: 20px;
+                    color: #ffff;
+                    font-family: 'Dongle', sans-serif;
+                    cursor: pointer;
+
+                }
+
+
+                .SingUp-Submit:hover {
+                    transition-duration: 0.4s;
+                    box-shadow: rgb(0, 0, 0);
+                    transform: scale(1.04, 1);
+                    opacity: 1;
+                }
+
+                .SingUp-Submit::after {
+                    transform: scale(-1.04, -1);
+                }
+
+
+                font-size: 20px;
+            }
+
+            
         }
 
-        .button {
+        .sing-in {
             
+            
+            .SingIn-b1 {
+                font-size: 50px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+
+            .break-1 {
+
+                display: block;
+                
+                .SingUp-Submit {
+                    background-color: #000000;
+                    font-size: 20px;
+                    color: #ffff;
+                    font-family: 'Dongle', sans-serif;
+                    cursor: pointer;
+
+                }
+
+
+                .SingUp-Submit:hover {
+                    transition-duration: 0.4s;
+                    box-shadow: rgb(0, 0, 0);
+                    transform: scale(1.04, 1);
+                    opacity: 1;
+                }
+
+                .SingUp-Submit::after {
+                    transform: scale(-1.04, -1);
+                }
+
+                font-size: 20px;
+
+            }
+
         }
 
     }
 
 }
+

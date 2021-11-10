@@ -5,6 +5,8 @@
 }
 
 .all .download .download-h1 {
+  position: -webkit-sticky;
+  position: sticky;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,11 +66,44 @@
   outline-color: #000000;
 }
 
-.all .redictering-buttons {
+.all .Login {
+  padding: auto;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   font-family: 'Dongle', sans-serif;
 }
 
-.all .redictering-buttons .button-h1 {
+.all .Login .sing-up {
+  display: block;
+  font-family: 'Dongle', sans-serif;
+}
+
+.all .Login .sing-up .SingUp-Submit {
+  background-color: #000000;
+  font-size: 20px;
+  color: #ffff;
+  font-family: 'Dongle', sans-serif;
+  cursor: pointer;
+}
+
+.all .Login .sing-up .SingUp-Submit:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  -webkit-transform: scale(1.04, 1);
+          transform: scale(1.04, 1);
+  opacity: 1;
+}
+
+.all .Login .sing-up .SingUp-Submit::after {
+  -webkit-transform: scale(-1.04, -1);
+          transform: scale(-1.04, -1);
+}
+
+.all .Login .sing-up .SingUp-b1 {
+  font-size: 50px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -78,6 +113,102 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  text-shadow: 2px 2px;
+}
+
+.all .Login .sing-up .break-1 {
+  display: block;
+  font-size: 20px;
+}
+
+.all .Login .sing-up .break-1 .SingUp-Submit {
+  background-color: #000000;
+  font-size: 20px;
+  color: #ffff;
+  font-family: 'Dongle', sans-serif;
+  cursor: pointer;
+}
+
+.all .Login .sing-up .break-1 .SingUp-Submit:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  -webkit-transform: scale(1.04, 1);
+          transform: scale(1.04, 1);
+  opacity: 1;
+}
+
+.all .Login .sing-up .break-1 .SingUp-Submit::after {
+  -webkit-transform: scale(-1.04, -1);
+          transform: scale(-1.04, -1);
+}
+
+.all .Login .sing-up .break-2 {
+  display: block;
+  font-size: 20px;
+}
+
+.all .Login .sing-up .break-2 .SingUp-Submit {
+  background-color: #000000;
+  font-size: 20px;
+  color: #ffff;
+  font-family: 'Dongle', sans-serif;
+  cursor: pointer;
+}
+
+.all .Login .sing-up .break-2 .SingUp-Submit:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  -webkit-transform: scale(1.04, 1);
+          transform: scale(1.04, 1);
+  opacity: 1;
+}
+
+.all .Login .sing-up .break-2 .SingUp-Submit::after {
+  -webkit-transform: scale(-1.04, -1);
+          transform: scale(-1.04, -1);
+}
+
+.all .Login .sing-in .SingIn-b1 {
+  font-size: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.all .Login .sing-in .break-1 {
+  display: block;
+  font-size: 20px;
+}
+
+.all .Login .sing-in .break-1 .SingUp-Submit {
+  background-color: #000000;
+  font-size: 20px;
+  color: #ffff;
+  font-family: 'Dongle', sans-serif;
+  cursor: pointer;
+}
+
+.all .Login .sing-in .break-1 .SingUp-Submit:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  -webkit-box-shadow: black;
+          box-shadow: black;
+  -webkit-transform: scale(1.04, 1);
+          transform: scale(1.04, 1);
+  opacity: 1;
+}
+
+.all .Login .sing-in .break-1 .SingUp-Submit::after {
+  -webkit-transform: scale(-1.04, -1);
+          transform: scale(-1.04, -1);
 }
 /*# sourceMappingURL=styles.css.map */
