@@ -20,7 +20,7 @@ db.connect(err => {
 
 const app = express();
 
-// Create database
+// Show database
 app.get('/show_db', (req, res) => {
     let sql = "show databases";
     db.query(sql, err => {
