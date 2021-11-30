@@ -32,6 +32,9 @@ int main(void) {
     // Dot Size
     int dotSize = 50;
 
+    // Dot following mouse position
+    Vector2 followingDotPos = {-100.0f, -100.0f};
+
     // Window Loop
     while (!WindowShouldClose())    
     {
@@ -73,6 +76,19 @@ int main(void) {
         // Changing dot size by pressing E and Q
         if (IsKeyDown(KEY_E)) ++dotSize;
         if (IsKeyDown(KEY_Q)) --dotSize;
+
+        // Dot following mouse
+        
+        bool ChangeDotX = false;
+        bool ChangeDotY = false;
+
+        if (IsKeyDown(KEY_F)) ChangeDotX = true, ChangeDotY = true;
+
+        Vector2 ChangingDotPos;
+
+        if (ChangeDotX && ChangeDotY == true) {
+            
+        };
         
         // Start's drawing on screen
         BeginDrawing();
